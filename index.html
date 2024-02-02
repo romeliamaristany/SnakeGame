@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favIcon.png">
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="play">
+        <div class="name-game">
+            <h1>Snake Game</h1>
+        </div>
+        <div class="wrapper">
+            <div class="game-details"> <!--Aqui van los detalles del juego-->
+                <div class="score">
+                    <img src="img/apple.png" alt="Score:"> 0
+                </div>
+                <div class="high-score">
+                    <img src="img/trophy.png" alt="High Score:"> 0
+                </div>
+            </div>
+            
+            <div class="play-board"><!--Aqui va tod el juego, la serpiente, etc..-->
+            </div>
+        </div>
+    </div>
+    <div class="game-over active">
+        <div class="warning">
+            <h2>Game Over</h2>
+            <button class="game-over-button">Play again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
